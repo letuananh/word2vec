@@ -19,3 +19,8 @@ is finished, the user can interactively explore the similarity of the words.
 
 More information about the scripts is provided at https://code.google.com/p/word2vec/
 
+To run the example
+
+1) Run `./demo-word.sh` to download training data (test8.gz), train the model for the first time (output to vectors.bin) and play with the interactive shell
+
+2) From the second time, run `./distance vectors.bin` to find similar words and `./word-analogy vectors.bin` to perform word analogy (W1-W2 = W3 - ?)
